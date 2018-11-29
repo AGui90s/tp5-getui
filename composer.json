@@ -1,0 +1,26 @@
+{
+    "name": "AGui90s/tp5-getui",
+    "type": "library",
+    "description": "getui sdk for thinkphp 5.0",
+    "keywords": ["getui","thinkphp"],
+    "homepage": "https://github.com/AGui90s/tp5-getui",
+    "require": {
+        "php": ">=7.0",
+        "guzzlehttp/guzzle": "^6.3",
+        "topthink/think": "5.0.*",
+        "phpunit/phpunit": "^7.4"
+    },
+
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "AGui90s",
+            "email": "agui_work@foxmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "tp5-getui\\": "src/"
+        }
+    }
+}
